@@ -1,0 +1,257 @@
+// Variables
+
+@import "../base/variables";
+
+//Header
+
+@import "../componentes/header";
+
+//Footer
+@import "../componentes/footer";
+
+//Extend
+@import "../base/extend";
+
+/*Empieza Pagina CURRICULUM*/
+
+.body-curriculum {
+  background-image: url(../src/multimedia/background-curriculum.jpg);
+  background-size: 100%;
+
+  .seccion-curriculum {
+    width: 100%;
+    margin-top: 5%;
+    .contenedor-educacion {
+      padding-bottom: 6rem;
+      margin-left: 20%;
+      .subcontenedor-educacion {
+        display: flex;
+        align-items: left;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 7%;
+        border-radius: 4rem;
+        filter: drop-shadow(0px 1.5px 1.5px #333);
+        width: 80%;
+        background-color: white;
+
+        @media screen and (min-width: 401px) and (max-width: 800px) {
+          display: flex;
+          justify-content: center;
+          align-items: left;
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding: 10%;
+          border-radius: 4rem;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+          background-color: white;
+        }
+
+        @media screen and (max-width: 400px) {
+          display: flex;
+          align-items: left;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding: 10%;
+          border-radius: 4rem;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+          background-color: white;
+        }
+
+        .contenedor-estudio {
+          @media screen and (min-width: 401px) and (max-width: 800px) {
+            margin-bottom: 7%;
+            margin-top: 7%;
+          }
+          @media screen and (max-width: 400px) {
+            margin-bottom: 7%;
+            margin-top: 7%;
+          }
+        }
+      }
+    }
+    .contenedor-experiencia {
+      padding-bottom: 6rem;
+      margin-left: 20%;
+      .subcontenedor-experiencia {
+        display: flex;
+        align-items: left;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 7%;
+        border-radius: 4rem;
+        filter: drop-shadow(0px 1.5px 1.5px #333);
+        width: 80%;
+        background-color: white;
+
+        @media screen and (min-width: 401px) and (max-width: 800px) {
+          display: flex;
+          align-items: left;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding: 10%;
+          border-radius: 4rem;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+          background-color: white;
+        }
+
+        @media screen and (max-width: 400px) {
+          display: flex;
+          align-items: left;
+          justify-content: center;
+          flex-direction: column;
+          flex-wrap: wrap;
+          padding: 10%;
+          border-radius: 4rem;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+          background-color: white;
+        }
+
+        .contenedor-info-experiencia {
+          @media screen and (min-width: 401px) and (max-width: 800px) {
+            margin-bottom: 7%;
+            margin-top: 7%;
+          }
+          @media screen and (max-width: 400px) {
+            margin-bottom: 7%;
+            margin-top: 7%;
+          }
+        }
+      }
+    }
+    .contenedor-skills {
+      padding-bottom: 6rem;
+      margin-left: 20%;
+
+      .subcontenedor-skills {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 7%;
+        border-radius: 4rem;
+        filter: drop-shadow(0px 1.5px 1.5px #333);
+        width: 80%;
+        background-color: white;
+
+        @media screen and (min-width: 401px) and (max-width: 800px) {
+          display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: space-around;
+          padding: 10%;
+          border-radius: 4rem;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+          width: 90%;
+          background-color: white;
+          border-radius: 4rem;
+        }
+
+        @media screen and (max-width: 400px) {
+          display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: space-around;
+          padding: 10%;
+          border-radius: 4rem;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+          width: 90%;
+          background-color: white;
+          border-radius: 4rem;
+        }
+
+        .skills-curriculum {
+          line-height: 21px;
+          color: #5857e4;
+
+          @media screen and (min-width: 401px) and (max-width: 800px) {
+            font-size: 1rem;
+            line-height: 25px;
+            width: 60%;
+            margin-right: 2rem;
+          }
+
+          @media screen and (max-width: 400px) {
+            font-size: 0.8rem;
+            line-height: 16px;
+            width: 60%;
+            margin-right: 2rem;
+          }
+        }
+        .img-skills {
+          width: 65%;
+
+          @media screen and (min-width: 401px) and (max-width: 800px) {
+            width: 85%;
+          }
+
+          @media screen and (max-width: 400px) {
+            width: 85%;
+          }
+        }
+      }
+    }
+    .contenedor-idiomas {
+      padding-bottom: 6rem;
+      margin-left: 20%;
+
+      .subcontenedor-idiomas {
+        display: flex;
+        align-items: left;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 7%;
+        border-radius: 4rem;
+        filter: drop-shadow(0px 1.5px 1.5px #333);
+        width: 80%;
+        background-color: white;
+
+        @media screen and (min-width: 401px) and (max-width: 800px) {
+          display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: space-around;
+          padding: 10%;
+          border-radius: 4rem;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+          width: 90%;
+          background-color: white;
+          border-radius: 4rem;
+        }
+
+        @media screen and (max-width: 400px) {
+          display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: space-around;
+          padding: 10%;
+          border-radius: 4rem;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+          width: 90%;
+          background-color: white;
+          border-radius: 4rem;
+        }
+
+        .grafico-idioma {
+          width: 90%;
+        }
+        .idioma {
+          color: #5857e4;
+        }
+
+        .contenedor-info-idioma {
+          @media screen and (min-width: 401px) and (max-width: 800px) {
+            margin-bottom: 7%;
+            margin-top: 7%;
+          }
+
+          @media screen and (max-width: 400px) {
+            margin-bottom: 7%;
+            margin-top: 7%;
+          }
+        }
+      }
+    }
+  }
+}

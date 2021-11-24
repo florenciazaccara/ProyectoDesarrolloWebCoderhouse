@@ -1,0 +1,17 @@
+//MIXINS
+
+@mixin prefijo($propiedad){
+    -webkit-transform: $propiedad;
+    -o-transform: $propiedad;
+    -moz-transform: $propiedad;
+    transform: $propiedad;
+}
+
+@mixin prefijo2($propiedad2){
+    -webkit-transition: $propiedad2;
+    -o-transition: $propiedad2;
+    -moz-transition: $propiedad2;
+    transition: $propiedad2;
+}
+
+

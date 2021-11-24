@@ -1,0 +1,36 @@
+/*FOOTER*/
+
+.footer-paginas {
+  display: flex;
+  margin-bottom: 3rem;
+
+  .contenedor-footer-paginas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+
+    a {
+      text-decoration: none;
+      list-style-type: none;
+      color: $color-gris-texto;
+      font-size: 1rem;
+    }
+
+    .parrafo-footer {
+      font-size: 2rem;
+      font-family: "Roboto", sans-serif, bold;
+    }
+
+    .contenedor-footer-redes {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+
+      a {
+        display: flex;
+        padding-left: 2rem;
+      }
+    }
+  }
+}

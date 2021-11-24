@@ -1,0 +1,1089 @@
+@charset "UTF-8";
+/*HEADER*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+header {
+  width: 100%;
+}
+
+header .clase-menu {
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  width: 100%;
+}
+
+header .clase-menu .navegador-link:hover {
+  background-color: #5857E4;
+  color: white;
+}
+
+/*FOOTER*/
+.footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footer-paginas .contenedor-footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer-paginas .contenedor-footer-paginas a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #4E4D4D;
+  font-size: 1rem;
+}
+
+.footer-paginas .contenedor-footer-paginas .parrafo-footer {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif, bold;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+}
+
+.footer-index, .body-contacto .contenedor-contacto .formulario .enviar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-index, .body-contacto .contenedor-contacto .formulario .enviar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Empieza Pagina INDEX*/
+.body-principal {
+  width: 100vh;
+  background-image: url(../src/multimedia/background.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-principal {
+    background-image: none;
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-principal {
+    background-image: none;
+    background-color: white;
+  }
+}
+
+.body-principal .seccion-principal {
+  text-align: left;
+  margin-left: 8rem;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-principal .seccion-principal {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-principal .seccion-principal {
+    margin-left: 2rem;
+  }
+}
+
+.body-principal .seccion-principal h2 {
+  margin-top: 14rem;
+  color: #4E4D4D;
+  font-size: 4rem;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-principal .seccion-principal h2 {
+    font-size: 3rem;
+    color: #5857E4;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-principal .seccion-principal h2 {
+    font-size: 2rem;
+    color: #5857E4;
+  }
+}
+
+.body-principal .seccion-principal .index {
+  font-size: 2rem;
+  color: #5857E4;
+  margin-top: 1rem;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-principal .seccion-principal .index {
+    font-size: 2rem;
+    color: #FEBAC7;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-principal .seccion-principal .index {
+    font-size: 1.5rem;
+    color: #FEBAC7;
+  }
+}
+
+.footer-index {
+  width: 100%;
+  color: #4E4D4D;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 4rem;
+  width: 100%;
+}
+
+.footer-index a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #4E4D4D;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .footer-index a {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-index a {
+    font-size: 0.7rem;
+  }
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+}
+
+header .clase-menu {
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  width: 100%;
+}
+
+header .clase-menu .navegador-link:hover {
+  background-color: #5857E4;
+  color: white;
+}
+
+/*FOOTER*/
+.footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footer-paginas .contenedor-footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer-paginas .contenedor-footer-paginas a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #4E4D4D;
+  font-size: 1rem;
+}
+
+.footer-paginas .contenedor-footer-paginas .parrafo-footer {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif, bold;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+}
+
+/* Empieza página SOBRE MI*/
+.body-sobremi {
+  background-image: url(../src/multimedia/background-sobremi.jpg);
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100%;
+}
+
+.body-sobremi .main-sobremi {
+  margin-bottom: 7rem;
+  margin-top: 7rem;
+  width: 100%;
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  .body-sobremi .main-sobremi {
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body-sobremi .main-sobremi {
+    margin-bottom: 7rem;
+    margin-top: 7rem;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body-sobremi .main-sobremi .imagen-sobremi {
+    width: 70%;
+  }
+}
+
+.body-sobremi .main-sobremi .titulo-sobremi {
+  font-size: 2.5rem;
+  color: #4E4D4D;
+}
+
+.body-sobremi .parrafo-sobremi {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: #4E4D4D;
+}
+
+@media screen and (min-width: 481px) and (max-width: 800px) {
+  .body-sobremi .parrafo-sobremi {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .body-sobremi .parrafo-sobremi {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+}
+
+header .clase-menu {
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  width: 100%;
+}
+
+header .clase-menu .navegador-link:hover {
+  background-color: #5857E4;
+  color: white;
+}
+
+/*FOOTER*/
+.footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footer-paginas .contenedor-footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer-paginas .contenedor-footer-paginas a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #4E4D4D;
+  font-size: 1rem;
+}
+
+.footer-paginas .contenedor-footer-paginas .parrafo-footer {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif, bold;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+}
+
+.footer-index, .body-contacto .contenedor-contacto .formulario .enviar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Empieza Pagina CURRICULUM*/
+.body-curriculum {
+  background-image: url(../src/multimedia/background-curriculum.jpg);
+  background-size: 100%;
+}
+
+.body-curriculum .seccion-curriculum {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.body-curriculum .seccion-curriculum .contenedor-educacion {
+  padding-bottom: 6rem;
+  margin-left: 20%;
+}
+
+.body-curriculum .seccion-curriculum .contenedor-educacion .subcontenedor-educacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 7%;
+  border-radius: 4rem;
+  -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+  width: 80%;
+  background-color: white;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-educacion .subcontenedor-educacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10%;
+    border-radius: 4rem;
+    -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+            filter: drop-shadow(0px 1.5px 1.5px #333);
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-educacion .subcontenedor-educacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10%;
+    border-radius: 4rem;
+    -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+            filter: drop-shadow(0px 1.5px 1.5px #333);
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-educacion .subcontenedor-educacion .contenedor-estudio {
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-educacion .subcontenedor-educacion .contenedor-estudio {
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+}
+
+.body-curriculum .seccion-curriculum .contenedor-experiencia {
+  padding-bottom: 6rem;
+  margin-left: 20%;
+}
+
+.body-curriculum .seccion-curriculum .contenedor-experiencia .subcontenedor-experiencia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 7%;
+  border-radius: 4rem;
+  -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+  width: 80%;
+  background-color: white;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-experiencia .subcontenedor-experiencia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10%;
+    border-radius: 4rem;
+    -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+            filter: drop-shadow(0px 1.5px 1.5px #333);
+    background-color: white;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-experiencia .subcontenedor-experiencia {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: left;
+        -ms-flex-align: left;
+            align-items: left;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 10%;
+    border-radius: 4rem;
+    -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+            filter: drop-shadow(0px 1.5px 1.5px #333);
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-experiencia .subcontenedor-experiencia .contenedor-info-experiencia {
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-experiencia .subcontenedor-experiencia .contenedor-info-experiencia {
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+}
+
+.body-curriculum .seccion-curriculum .contenedor-skills {
+  padding-bottom: 6rem;
+  margin-left: 20%;
+}
+
+.body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 7%;
+  border-radius: 4rem;
+  -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+  width: 80%;
+  background-color: white;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 10%;
+    border-radius: 4rem;
+    -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+            filter: drop-shadow(0px 1.5px 1.5px #333);
+    width: 90%;
+    background-color: white;
+    border-radius: 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 10%;
+    border-radius: 4rem;
+    -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+            filter: drop-shadow(0px 1.5px 1.5px #333);
+    width: 90%;
+    background-color: white;
+    border-radius: 4rem;
+  }
+}
+
+.body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills .skills-curriculum {
+  line-height: 21px;
+  color: #5857e4;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills .skills-curriculum {
+    font-size: 1rem;
+    line-height: 25px;
+    width: 60%;
+    margin-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills .skills-curriculum {
+    font-size: 0.8rem;
+    line-height: 16px;
+    width: 60%;
+    margin-right: 2rem;
+  }
+}
+
+.body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills .img-skills {
+  width: 65%;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills .img-skills {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-skills .subcontenedor-skills .img-skills {
+    width: 85%;
+  }
+}
+
+.body-curriculum .seccion-curriculum .contenedor-idiomas {
+  padding-bottom: 6rem;
+  margin-left: 20%;
+}
+
+.body-curriculum .seccion-curriculum .contenedor-idiomas .subcontenedor-idiomas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 7%;
+  border-radius: 4rem;
+  -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+  width: 80%;
+  background-color: white;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-idiomas .subcontenedor-idiomas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 10%;
+    border-radius: 4rem;
+    -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+            filter: drop-shadow(0px 1.5px 1.5px #333);
+    width: 90%;
+    background-color: white;
+    border-radius: 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-idiomas .subcontenedor-idiomas {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    padding: 10%;
+    border-radius: 4rem;
+    -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+            filter: drop-shadow(0px 1.5px 1.5px #333);
+    width: 90%;
+    background-color: white;
+    border-radius: 4rem;
+  }
+}
+
+.body-curriculum .seccion-curriculum .contenedor-idiomas .subcontenedor-idiomas .grafico-idioma {
+  width: 90%;
+}
+
+.body-curriculum .seccion-curriculum .contenedor-idiomas .subcontenedor-idiomas .idioma {
+  color: #5857e4;
+}
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+  .body-curriculum .seccion-curriculum .contenedor-idiomas .subcontenedor-idiomas .contenedor-info-idioma {
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .body-curriculum .seccion-curriculum .contenedor-idiomas .subcontenedor-idiomas .contenedor-info-idioma {
+    margin-bottom: 7%;
+    margin-top: 7%;
+  }
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+}
+
+header .clase-menu {
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  width: 100%;
+}
+
+header .clase-menu .navegador-link:hover {
+  background-color: #5857E4;
+  color: white;
+}
+
+/*FOOTER*/
+.footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footer-paginas .contenedor-footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer-paginas .contenedor-footer-paginas a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #4E4D4D;
+  font-size: 1rem;
+}
+
+.footer-paginas .contenedor-footer-paginas .parrafo-footer {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif, bold;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+}
+
+.footer-index, .body-contacto .contenedor-contacto .formulario .enviar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Empieza pagina TRABAJOS*/
+.body-trabajos {
+  background-image: url(../src/multimedia/background-trabajos.jpg);
+  background-size: 100%;
+}
+
+.body-trabajos .seccion-trabajo {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.body-trabajos .seccion-trabajo .titulo-misproyectos {
+  margin-left: 4rem;
+  margin-bottom: 4rem;
+}
+
+.body-trabajos .seccion-trabajo .titulo-proyecyo-individual {
+  color: #5857E4;
+}
+
+.body-trabajos .seccion-trabajo .card-text {
+  text-decoration: none;
+  color: #4E4D4D;
+}
+
+.body-trabajos .seccion-trabajo .animacion-card {
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  height: 20%;
+  width: 65%;
+}
+
+.body-trabajos .seccion-trabajo .animacion-card:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/*HEADER*/
+header {
+  width: 100%;
+}
+
+header .clase-menu {
+  text-align: center;
+  padding: 17px;
+  text-decoration: none;
+  width: 100%;
+}
+
+header .clase-menu .navegador-link:hover {
+  background-color: #5857E4;
+  color: white;
+}
+
+/*FOOTER*/
+.footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.footer-paginas .contenedor-footer-paginas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer-paginas .contenedor-footer-paginas a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #4E4D4D;
+  font-size: 1rem;
+}
+
+.footer-paginas .contenedor-footer-paginas .parrafo-footer {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif, bold;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-paginas .contenedor-footer-paginas .contenedor-footer-redes a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+}
+
+.footer-index, .body-contacto .contenedor-contacto .formulario .enviar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*Empieza Pagina CONTACTO*/
+.body-contacto {
+  background-image: url(../src/multimedia/background-contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.body-contacto .contenedor-contacto {
+  margin: 4rem;
+}
+
+.body-contacto .contenedor-contacto .formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  padding: 2%;
+  width: 100%;
+  height: 200%;
+}
+
+.body-contacto .contenedor-contacto .formulario .completar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
+}
+
+.body-contacto .contenedor-contacto .formulario .completar .area-escribir {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-color: #5a56e9;
+  border-radius: 4rem;
+  width: 40%;
+}
+
+.body-contacto .contenedor-contacto .formulario .completar .area-escribir-mensaje {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-color: #5a56e9;
+  border-radius: 2rem;
+  width: 40%;
+}
+
+.body-contacto .contenedor-contacto .formulario .enviar {
+  padding: 2%;
+}
+
+.body-contacto .contenedor-contacto .formulario .enviar .boton-enviar {
+  color: white;
+  background-color: #5857e4;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 4rem;
+  border-color: #5857e4;
+  -webkit-filter: drop-shadow(0px 1.5px 1.5px #333);
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+}
+
+/* ESTILOS GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62, 5%;
+  /* 1rem pase a valer a 10px. Por defecto el navegador aplica 16px */
+}
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+/*Estilo Boton*/
+.boton-color-texto .boton-color {
+  color: #5857E4;
+  border-color: #5857E4;
+  font-family: "Roboto", sans-serif, bold;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.boton-color-texto .btn-outline-whatever:hover {
+  background-color: #5857E4;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,76 @@
+// Variables
+
+@import "../base/variables";
+
+//Header
+
+@import "../componentes/header";
+
+//Footer
+@import "../componentes/footer";
+
+//Extend
+@import "../base/extend";
+
+// Mixins
+@import "../base/mixins";
+
+/*Empieza Pagina CONTACTO*/
+
+.body-contacto {
+  background-image: url(../src/multimedia/background-contacto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+
+  .contenedor-contacto {
+    margin: 4rem;
+
+    
+  .formulario {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2%;
+    width: 100%;
+    height: 200%;
+
+    .completar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2%;
+
+    
+
+        .area-escribir {
+          display: flex;
+          border-color: #5a56e9;
+          border-radius: 4rem;
+          width: 40%;
+        }
+
+        .area-escribir-mensaje {
+          display: flex;
+          border-color: #5a56e9;
+          border-radius: 2rem;
+          width: 40%;
+        }
+      }
+
+      .enviar {
+        @extend %display;
+        padding: 2%;
+
+        .boton-enviar {
+          color: white;
+          background-color: #5857e4;
+          padding: 0.5rem 1rem 0.5rem 1rem;
+          border-radius: 4rem;
+          border-color: #5857e4;
+          filter: drop-shadow(0px 1.5px 1.5px #333);
+        }
+  }
+
+    }
+  }
+}

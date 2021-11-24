@@ -1,0 +1,70 @@
+// Variables
+
+@import "./base/variables";
+
+//Header
+
+@import "./componentes/header";
+
+//Footer
+@import "./componentes/footer";
+
+//Extend
+@import "./base/extend";
+
+//Mixins
+@import "./base/mixins";
+
+//Pagina Index
+@import "./paginas/index";
+
+//Pagina Sobre mi
+@import "./paginas/sobremi";
+
+//Pagina Curriculum
+@import "./paginas/curriculum";
+
+//Pagina Trabajos
+@import "./paginas/trabajos";
+
+//Pagina Contacto
+@import "./paginas/contacto";
+
+/* ESTILOS GENERALES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+html {
+  font-size: 62, 5%;
+  /* 1rem pase a valer a 10px. Por defecto el navegador aplica 16px */
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
+
+/*Estilo Boton*/
+.boton-color-texto {
+  .boton-color {
+    color: $color-azul;
+    border-color: $color-azul;
+    font-family: "Roboto", sans-serif, bold;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+
+  .btn-outline-whatever {
+    &:hover {
+      background-color: $color-azul;
+      color: white;
+    }
+  }
+}

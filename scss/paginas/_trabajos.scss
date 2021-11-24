@@ -1,0 +1,55 @@
+// Variables
+
+@import "../base/variables";
+
+//Header
+
+@import "../componentes/header";
+
+//Footer
+@import "../componentes/footer";
+
+//Extend
+@import "../base/extend";
+
+// Mixins
+@import "../base/mixins";
+
+/*Empieza pagina TRABAJOS*/
+
+.body-trabajos {
+  background-image: url(../src/multimedia/background-trabajos.jpg);
+  background-size: 100%;
+
+  .seccion-trabajo {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+    .titulo-misproyectos {
+      margin-left: 4rem;
+      margin-bottom: 4rem;
+    }
+
+    .titulo-proyecyo-individual {
+      color: $color-azul;
+    }
+
+    .card-text {
+      text-decoration: none;
+      color: $color-gris-texto;
+    }
+
+    //TRANSFORMACION-TRANSICION
+
+    .animacion-card {
+      @include prefijo2(all 1s ease-in-out);
+      height: 20%;
+      width: 65%;
+
+      &:hover {
+        @include prefijo(scale(1.1))
+      
+      }
+    }
+  }
+}
