@@ -4,34 +4,23 @@
 
 /*HEADER*/
 
-
 header {
+  width: 100%;
+
+  .clase-menu {
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
     width: 100%;
-
-    .clase-menu {
-        text-align: center;
-        padding: 17px;
-        text-decoration: none;
-        width: 100%;
-
-        
-  .navegador-link {
-    &:hover{
-        background-color: $color-azul;
-        color: $color-blanco;
-    }
   }
 
-        
-        }
-      }
+  .navegador-link {
+    font-size: 1.1rem;
+    margin: 1rem;
 
-      
-      
-    
-  
-   
-  
-   
-
-  
+    &:hover {
+      background-color: $color-azul;
+      color: $color-blanco;
+    }
+  }
+}

@@ -1,36 +1,53 @@
 /*FOOTER*/
 
-.footer-paginas {
+.footer-basic {
+  padding: 2rem 0;
+  color: $color-gris-texto;
   display: flex;
-  margin-bottom: 3rem;
+  justify-content: center;
+  text-align: center;
+  background-color: $color-gris-fondo;
+  align-items: center;
 
-  .contenedor-footer-paginas {
+  .social {
+    text-align: center;
+    padding-bottom: 25px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
-    flex: 1;
+    justify-content: space-around;
 
-    a {
-      text-decoration: none;
-      list-style-type: none;
-      color: $color-gris-texto;
-      font-size: 1rem;
-    }
-
-    .parrafo-footer {
-      font-size: 2rem;
-      font-family: "Roboto", sans-serif, bold;
-    }
-
-    .contenedor-footer-redes {
+    .iconos-redes{
       display: flex;
-      justify-content: flex-end;
+      justify-content: space-around;
+      align-content: center;
       align-items: center;
-
+      text-align: center;
       a {
-        display: flex;
-        padding-left: 2rem;
-      }
+        text-decoration: none;
+        font-size: 1rem;
+  
+        margin: 0 8px;
+        color: $color-gris-texto;
+  
+        &:hover {
+          opacity: 0.7;
+        }
+  
+        .redes {
+          width: 3rem;
+        }
+
+
     }
+   
+    }
+  }
+
+  .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.8rem;
+    color: $color-gris-texto;
+    margin-bottom: 0;
   }
 }
